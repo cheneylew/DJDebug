@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F9A173CE9080F50FD1FEB78FCF0203 /* DJDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = A91942F6BE9852E91F2B1609A2F369D0 /* DJDebugger.m */; };
+		2D429231A9E0DF221553DE111F02C0E0 /* Pods-DJDebug_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5087C476EA589B6C0C2FF6425A90C3FC /* Pods-DJDebug_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46864751BA4BD3E6719F5BA6AA1B47C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CB3DEB907EA03184153F643E987FDF1 /* Pods-DJDebug_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B3E794645086E9D500E48E83CD69 /* Pods-DJDebug_Example-dummy.m */; };
+		7F8E5B0CE920E82BEEEBE7B2D1285CEE /* DJDebug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A17C1C96F89D565137437CB2BAC7B /* DJDebug-dummy.m */; };
+		839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */; };
+		95EDD3C08F591AD707B543F00A274A24 /* DJDebug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE8F19925FBFE091DB082E9A40238A9 /* DJDebug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B165DF9DA515DEA15AEFB7D046FCC8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B774B22745EEE8DAEFFF640482929633 /* Pods-DJDebug_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3A3E11C04058BA10DC7148D70A477C /* Pods-DJDebug_Tests-dummy.m */; };
+		BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */; };
+		C3DE153A6972DFCDE0866FC309BD31BF /* DJDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E675654EDD729C063068558E4696F7 /* DJDebugger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6403286245CD1E725CF0D551AF70450 /* Pods-DJDebug_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1FC6AEB3EDBF67AA5D512E35006C5D /* Pods-DJDebug_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5696D5CD315A0B7BB202BD512358768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FC4BAE0B5A4A5EEF0540791D63220202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1841797CA8121021F8840EDB43B68C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C766897D56D8A815526A1B61D99EA0CA;
+			remoteInfo = Aspects;
+		};
+		47D2DCA0CAFEE0F76E06BD61C4B936BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED6CB348596837594BBD422DE7277E3;
+			remoteInfo = DJDebug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE3E000BB0AFA67C3636D8FF80FF22C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1FC6AEB3EDBF67AA5D512E35006C5D /* Pods-DJDebug_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJDebug_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1A8DF591E1D54939306858B1F9B48FC6 /* Pods-DJDebug_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJDebug_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1AB1232BD0A9190ED194FBE8630892DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253DC335BB3D1A7DB3551BEAC201FE90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E16F509D6272D338FD303B89D662B0A /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Aspects.modulemap; sourceTree = "<group>"; };
+		2F8E77825209C979B187D8F85D65A944 /* Pods-DJDebug_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJDebug_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		3A53230463DD1A87926605D9899A3FEB /* DJDebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJDebug.xcconfig; sourceTree = "<group>"; };
+		3C940050E3DCC02A274CDA81856A5E04 /* Pods-DJDebug_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJDebug_Example-resources.sh"; sourceTree = "<group>"; };
+		4C53EBE3E12C3EDDFA5D1DD9444E21E9 /* DJDebug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DJDebug.modulemap; sourceTree = "<group>"; };
+		4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		5087C476EA589B6C0C2FF6425A90C3FC /* Pods-DJDebug_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJDebug_Example-umbrella.h"; sourceTree = "<group>"; };
+		50D64B48E420284310292E93EB8868B8 /* Pods-DJDebug_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJDebug_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50EA3A9DE57CCA78B5E53D2A5D2AA721 /* Pods-DJDebug_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DJDebug_Example.modulemap"; sourceTree = "<group>"; };
+		673AB72B5F58F990D2ACA289870B3F8E /* Pods-DJDebug_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJDebug_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75E1B3E794645086E9D500E48E83CD69 /* Pods-DJDebug_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJDebug_Example-dummy.m"; sourceTree = "<group>"; };
+		7B1B6C55BD6E16CD77B6FF81CB870FAB /* Pods_DJDebug_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJDebug_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D19D67E743F3FBF882C0F913EC33A02 /* Pods_DJDebug_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJDebug_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5A17C1C96F89D565137437CB2BAC7B /* DJDebug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJDebug-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B76D9BA1A90866BC1B26E74E58F4D2 /* Pods-DJDebug_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJDebug_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EDADB541FA119EE56D5A7BC60D6928A /* Pods-DJDebug_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJDebug_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A65834DAAEF0F90346BDE0917BA6D1B3 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91942F6BE9852E91F2B1609A2F369D0 /* DJDebugger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DJDebugger.m; sourceTree = "<group>"; };
+		AD3A3E11C04058BA10DC7148D70A477C /* Pods-DJDebug_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJDebug_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3C3D019F826C4B96762CD93637551C4 /* Pods-DJDebug_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJDebug_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B53B9AC60D1CB7F59A29484AA3B7872F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75FCC807456676538D461D20C26F36D /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		C2005CD920319883E9D7CA8F71503113 /* Pods-DJDebug_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJDebug_Tests-resources.sh"; sourceTree = "<group>"; };
+		C50731B60C1778C59285CE6745D2B7D9 /* Pods-DJDebug_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJDebug_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C9E675654EDD729C063068558E4696F7 /* DJDebugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DJDebugger.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		E3F0139C13A479088F9CD1F5E014ED41 /* DJDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DJDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE8F19925FBFE091DB082E9A40238A9 /* DJDebug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJDebug-umbrella.h"; sourceTree = "<group>"; };
+		FA83D5626840AFBC6531F8CEE87417F4 /* DJDebug-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJDebug-prefix.pch"; sourceTree = "<group>"; };
+		FB0EB6C5C091A651E802B017B1D63FFE /* Pods-DJDebug_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DJDebug_Tests.modulemap"; sourceTree = "<group>"; };
+		FBE0CCB1A43F296C1D9D75A8634F696E /* Pods-DJDebug_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJDebug_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FD26796260E12FBB2ABBBFA6AA3634F5 /* Pods-DJDebug_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJDebug_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3524EA813D363ABC8D4C232C0EF3FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5696D5CD315A0B7BB202BD512358768 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B30C33B286A889588F5BAE789E9485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46864751BA4BD3E6719F5BA6AA1B47C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BA7EA7F9E29800272A85E6AEB36273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B165DF9DA515DEA15AEFB7D046FCC8B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AEDE19CBAEC290B9F780861531DBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4BAE0B5A4A5EEF0540791D63220202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23223D31B49C019A38B5DF394A9D3985 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C53EBE3E12C3EDDFA5D1DD9444E21E9 /* DJDebug.modulemap */,
+				3A53230463DD1A87926605D9899A3FEB /* DJDebug.xcconfig */,
+				7F5A17C1C96F89D565137437CB2BAC7B /* DJDebug-dummy.m */,
+				FA83D5626840AFBC6531F8CEE87417F4 /* DJDebug-prefix.pch */,
+				EEE8F19925FBFE091DB082E9A40238A9 /* DJDebug-umbrella.h */,
+				253DC335BB3D1A7DB3551BEAC201FE90 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DJDebug";
+			sourceTree = "<group>";
+		};
+		4DC5FCD7369AC5BB4BEE3A1E6DFBD5DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE01E8B1A5FDFA5151F649F571D8BA /* Pods-DJDebug_Example */,
+				8BDE2726EFCC452356B4CCBDC526089E /* Pods-DJDebug_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E141F68389093791E3F9C6EF7E434ED /* DJDebug */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF7FBA8FAFC70ECC3DBA2A83A87842 /* DJDebug */,
+				23223D31B49C019A38B5DF394A9D3985 /* Support Files */,
+			);
+			name = DJDebug;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51EE9D20E124FA964B4A5D85FB7A9B9E /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */,
+				BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */,
+				9A2CC22E53C2E6C900CD5E06BA6E1120 /* Support Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				834479FCCBA7709C05D09FADCA805648 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F44F05A8F527D3FE55781A7396EFE39E /* Pods */,
+				FCA24CB97A3CBC0145C0D0B1B8C8C4AB /* Products */,
+				4DC5FCD7369AC5BB4BEE3A1E6DFBD5DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		834479FCCBA7709C05D09FADCA805648 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E141F68389093791E3F9C6EF7E434ED /* DJDebug */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8BDE2726EFCC452356B4CCBDC526089E /* Pods-DJDebug_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1232BD0A9190ED194FBE8630892DF /* Info.plist */,
+				FB0EB6C5C091A651E802B017B1D63FFE /* Pods-DJDebug_Tests.modulemap */,
+				FD26796260E12FBB2ABBBFA6AA3634F5 /* Pods-DJDebug_Tests-acknowledgements.markdown */,
+				673AB72B5F58F990D2ACA289870B3F8E /* Pods-DJDebug_Tests-acknowledgements.plist */,
+				AD3A3E11C04058BA10DC7148D70A477C /* Pods-DJDebug_Tests-dummy.m */,
+				C50731B60C1778C59285CE6745D2B7D9 /* Pods-DJDebug_Tests-frameworks.sh */,
+				C2005CD920319883E9D7CA8F71503113 /* Pods-DJDebug_Tests-resources.sh */,
+				1A1FC6AEB3EDBF67AA5D512E35006C5D /* Pods-DJDebug_Tests-umbrella.h */,
+				2F8E77825209C979B187D8F85D65A944 /* Pods-DJDebug_Tests.debug.xcconfig */,
+				FBE0CCB1A43F296C1D9D75A8634F696E /* Pods-DJDebug_Tests.release.xcconfig */,
+			);
+			name = "Pods-DJDebug_Tests";
+			path = "Target Support Files/Pods-DJDebug_Tests";
+			sourceTree = "<group>";
+		};
+		9A2CC22E53C2E6C900CD5E06BA6E1120 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E16F509D6272D338FD303B89D662B0A /* Aspects.modulemap */,
+				DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */,
+				3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */,
+				B75FCC807456676538D461D20C26F36D /* Aspects-prefix.pch */,
+				4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */,
+				B53B9AC60D1CB7F59A29484AA3B7872F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		A4EE01E8B1A5FDFA5151F649F571D8BA /* Pods-DJDebug_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0EE3E000BB0AFA67C3636D8FF80FF22C /* Info.plist */,
+				50EA3A9DE57CCA78B5E53D2A5D2AA721 /* Pods-DJDebug_Example.modulemap */,
+				B3C3D019F826C4B96762CD93637551C4 /* Pods-DJDebug_Example-acknowledgements.markdown */,
+				94B76D9BA1A90866BC1B26E74E58F4D2 /* Pods-DJDebug_Example-acknowledgements.plist */,
+				75E1B3E794645086E9D500E48E83CD69 /* Pods-DJDebug_Example-dummy.m */,
+				50D64B48E420284310292E93EB8868B8 /* Pods-DJDebug_Example-frameworks.sh */,
+				3C940050E3DCC02A274CDA81856A5E04 /* Pods-DJDebug_Example-resources.sh */,
+				5087C476EA589B6C0C2FF6425A90C3FC /* Pods-DJDebug_Example-umbrella.h */,
+				1A8DF591E1D54939306858B1F9B48FC6 /* Pods-DJDebug_Example.debug.xcconfig */,
+				9EDADB541FA119EE56D5A7BC60D6928A /* Pods-DJDebug_Example.release.xcconfig */,
+			);
+			name = "Pods-DJDebug_Example";
+			path = "Target Support Files/Pods-DJDebug_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC40A2D3BF9C36D037847BC0D88E55F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9E675654EDD729C063068558E4696F7 /* DJDebugger.h */,
+				A91942F6BE9852E91F2B1609A2F369D0 /* DJDebugger.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F44F05A8F527D3FE55781A7396EFE39E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51EE9D20E124FA964B4A5D85FB7A9B9E /* Aspects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4AF7FBA8FAFC70ECC3DBA2A83A87842 /* DJDebug */ = {
+			isa = PBXGroup;
+			children = (
+				CC40A2D3BF9C36D037847BC0D88E55F4 /* Classes */,
+			);
+			path = DJDebug;
+			sourceTree = "<group>";
+		};
+		FCA24CB97A3CBC0145C0D0B1B8C8C4AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65834DAAEF0F90346BDE0917BA6D1B3 /* Aspects.framework */,
+				E3F0139C13A479088F9CD1F5E014ED41 /* DJDebug.framework */,
+				7B1B6C55BD6E16CD77B6FF81CB870FAB /* Pods_DJDebug_Example.framework */,
+				7D19D67E743F3FBF882C0F913EC33A02 /* Pods_DJDebug_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		166A27A8A50DF70D3DBE0B7B7881CF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6403286245CD1E725CF0D551AF70450 /* Pods-DJDebug_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D810B8F100B3F75458A0848E8865D750 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDD3C08F591AD707B543F00A274A24 /* DJDebug-umbrella.h in Headers */,
+				C3DE153A6972DFCDE0866FC309BD31BF /* DJDebugger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD25900029031E66FEBD6C9D4A013BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D429231A9E0DF221553DE111F02C0E0 /* Pods-DJDebug_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F3B4CACB3893080AAA4ADDC1C185C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */,
+				4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1ED6CB348596837594BBD422DE7277E3 /* DJDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4860E93581533452A3FBA1FF279743C4 /* Build configuration list for PBXNativeTarget "DJDebug" */;
+			buildPhases = (
+				E117DC65812BCEA953E77D259548C92C /* Sources */,
+				3524EA813D363ABC8D4C232C0EF3FACC /* Frameworks */,
+				D810B8F100B3F75458A0848E8865D750 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJDebug;
+			productName = DJDebug;
+			productReference = E3F0139C13A479088F9CD1F5E014ED41 /* DJDebug.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72EA8BFADE19F33284E5864E673F8CDE /* Pods-DJDebug_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780530D25C675FC45626E2FE1D986C68 /* Build configuration list for PBXNativeTarget "Pods-DJDebug_Example" */;
+			buildPhases = (
+				F946C836E25E3CDA84F36189B0F28E65 /* Sources */,
+				E3AEDE19CBAEC290B9F780861531DBC9 /* Frameworks */,
+				DD25900029031E66FEBD6C9D4A013BB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EEAF131AF1E8862BAA36C0E75AD668 /* PBXTargetDependency */,
+				62DA594FDBE5DC8205F20266CF1DADC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-DJDebug_Example";
+			productName = "Pods-DJDebug_Example";
+			productReference = 7B1B6C55BD6E16CD77B6FF81CB870FAB /* Pods_DJDebug_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C766897D56D8A815526A1B61D99EA0CA /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AC6EAD5B748ED9BB6C05E0808C6B2E /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				01F1EEC669A37DC92B6ED05EA9DB75E0 /* Sources */,
+				D2B30C33B286A889588F5BAE789E9485 /* Frameworks */,
+				F2F3B4CACB3893080AAA4ADDC1C185C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = A65834DAAEF0F90346BDE0917BA6D1B3 /* Aspects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4F25DC4475521C58F5C759EA3326278 /* Pods-DJDebug_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9875FE67E9682B412BDA8CE8EEF8149 /* Build configuration list for PBXNativeTarget "Pods-DJDebug_Tests" */;
+			buildPhases = (
+				AD9C9B26E650CAFF31BEC0459137991A /* Sources */,
+				E1BA7EA7F9E29800272A85E6AEB36273 /* Frameworks */,
+				166A27A8A50DF70D3DBE0B7B7881CF45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DJDebug_Tests";
+			productName = "Pods-DJDebug_Tests";
+			productReference = 7D19D67E743F3FBF882C0F913EC33A02 /* Pods_DJDebug_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCA24CB97A3CBC0145C0D0B1B8C8C4AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C766897D56D8A815526A1B61D99EA0CA /* Aspects */,
+				1ED6CB348596837594BBD422DE7277E3 /* DJDebug */,
+				72EA8BFADE19F33284E5864E673F8CDE /* Pods-DJDebug_Example */,
+				D4F25DC4475521C58F5C759EA3326278 /* Pods-DJDebug_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F1EEC669A37DC92B6ED05EA9DB75E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */,
+				839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C9B26E650CAFF31BEC0459137991A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B774B22745EEE8DAEFFF640482929633 /* Pods-DJDebug_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E117DC65812BCEA953E77D259548C92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8E5B0CE920E82BEEEBE7B2D1285CEE /* DJDebug-dummy.m in Sources */,
+				17F9A173CE9080F50FD1FEB78FCF0203 /* DJDebugger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F946C836E25E3CDA84F36189B0F28E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB3DEB907EA03184153F643E987FDF1 /* Pods-DJDebug_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56EEAF131AF1E8862BAA36C0E75AD668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C766897D56D8A815526A1B61D99EA0CA /* Aspects */;
+			targetProxy = 1841797CA8121021F8840EDB43B68C45 /* PBXContainerItemProxy */;
+		};
+		62DA594FDBE5DC8205F20266CF1DADC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DJDebug;
+			target = 1ED6CB348596837594BBD422DE7277E3 /* DJDebug */;
+			targetProxy = 47D2DCA0CAFEE0F76E06BD61C4B936BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07D01BDABBD391A31B3E099536033A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B8F8EE8F7426661006177B44B49A3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE0CCB1A43F296C1D9D75A8634F696E /* Pods-DJDebug_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DJDebug_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJDebug_Tests/Pods-DJDebug_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJDebug_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		415CCB0BBE6FFCD90D5235A1FB77CDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8DF591E1D54939306858B1F9B48FC6 /* Pods-DJDebug_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DJDebug_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJDebug_Example/Pods-DJDebug_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJDebug_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		464A77EB383FAD829B10B7061B545FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D034E84BD520F131ACCFEF3A87A191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A53230463DD1A87926605D9899A3FEB /* DJDebug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DJDebug/DJDebug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJDebug/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJDebug/DJDebug.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DJDebug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8EF49798B2400D664247A098526272B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8E77825209C979B187D8F85D65A944 /* Pods-DJDebug_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DJDebug_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJDebug_Tests/Pods-DJDebug_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJDebug_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E98A978A917266001C59E15D801558E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDADB541FA119EE56D5A7BC60D6928A /* Pods-DJDebug_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DJDebug_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJDebug_Example/Pods-DJDebug_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJDebug_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAFC979272103E913B8A8F71F2741680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A53230463DD1A87926605D9899A3FEB /* DJDebug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DJDebug/DJDebug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJDebug/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJDebug/DJDebug.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DJDebug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AC6EAD5B748ED9BB6C05E0808C6B2E /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464A77EB383FAD829B10B7061B545FE7 /* Debug */,
+				07D01BDABBD391A31B3E099536033A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4860E93581533452A3FBA1FF279743C4 /* Build configuration list for PBXNativeTarget "DJDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D034E84BD520F131ACCFEF3A87A191 /* Debug */,
+				EAFC979272103E913B8A8F71F2741680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780530D25C675FC45626E2FE1D986C68 /* Build configuration list for PBXNativeTarget "Pods-DJDebug_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415CCB0BBE6FFCD90D5235A1FB77CDFD /* Debug */,
+				E98A978A917266001C59E15D801558E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9875FE67E9682B412BDA8CE8EEF8149 /* Build configuration list for PBXNativeTarget "Pods-DJDebug_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EF49798B2400D664247A098526272B /* Debug */,
+				1B8F8EE8F7426661006177B44B49A3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

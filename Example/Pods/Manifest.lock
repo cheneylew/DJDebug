@@ -1,0 +1,19 @@
+PODS:
+  - Aspects (1.4.1)
+  - DJDebug (0.1.0)
+
+DEPENDENCIES:
+  - Aspects (~> 1.4.1)
+  - DJDebug (from `../`)
+
+EXTERNAL SOURCES:
+  DJDebug:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  DJDebug: 14a66c2966ba3e7df05e2383018becb09fb16444
+
+PODFILE CHECKSUM: 088ef65ada0d77a3f3bf528832f34e9f13518024
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,22 @@
+{
+  "name": "DJDebug",
+  "version": "0.1.0",
+  "summary": "A short description of DJDebug.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DJDebug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Deju Liu": "cheneylew@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DJDebug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DJDebug/Classes/**/*"
+}

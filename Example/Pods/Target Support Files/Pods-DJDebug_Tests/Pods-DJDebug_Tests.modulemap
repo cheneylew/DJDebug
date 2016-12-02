@@ -1,0 +1,6 @@
+framework module Pods_DJDebug_Tests {
+  umbrella header "Pods-DJDebug_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

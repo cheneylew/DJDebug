@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'DJDebug_Example' do
+  pod 'DJDebug', :path => '../'
+  pod 'Aspects', '~> 1.4.1'
+
+  target 'DJDebug_Tests' do
+    inherit! :search_paths
+
+    #pod 'FBSnapshotTestCase'
+  end
+end
